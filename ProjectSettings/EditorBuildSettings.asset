@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Timer.unity
     guid: 6907b6c085a4ff044a9b04c6081786dc
+  - enabled: 1
+    path: Assets/Scenes/RSP.unity
+    guid: 0e028f1686dd09f4d8d2beda3fe82327
   m_configObjects: {}

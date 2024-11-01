@@ -124,5 +124,10 @@ public class LoginSystem : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void RSP()
+    {
+        SceneManager.LoadScene(3);
+    }
+
     
 }
