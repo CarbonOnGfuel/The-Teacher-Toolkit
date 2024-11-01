@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RSP.unity
     guid: 0e028f1686dd09f4d8d2beda3fe82327
+  - enabled: 1
+    path: Assets/Scenes/SettingsPage.unity
+    guid: 3d02cf5a08fb25549b2adfbb5ca10354
   m_configObjects: {}

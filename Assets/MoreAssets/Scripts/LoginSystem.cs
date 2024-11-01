@@ -129,5 +129,9 @@ public class LoginSystem : MonoBehaviour
         SceneManager.LoadScene(3);
     }
 
+    public void SettingsPage()
+    {
+        SceneManager.LoadScene(4);
+    }
     
 }

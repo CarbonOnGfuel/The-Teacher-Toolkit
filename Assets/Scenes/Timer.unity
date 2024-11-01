@@ -3519,7 +3519,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 375063094}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709607331}
+        m_TargetAssemblyTypeName: LoginSystem, Assembly-CSharp
+        m_MethodName: SettingsPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &375063094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3925,7 +3937,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 424651988}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709607331}
+        m_TargetAssemblyTypeName: LoginSystem, Assembly-CSharp
+        m_MethodName: SettingsPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &424651988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13742,7 +13766,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1644272911}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709607331}
+        m_TargetAssemblyTypeName: LoginSystem, Assembly-CSharp
+        m_MethodName: SettingsPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1644272911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17381,7 +17417,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2034744061}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 709607331}
+        m_TargetAssemblyTypeName: LoginSystem, Assembly-CSharp
+        m_MethodName: SettingsPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2034744061
 MonoBehaviour:
   m_ObjectHideFlags: 0
