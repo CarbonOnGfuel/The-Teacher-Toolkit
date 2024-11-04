@@ -84,6 +84,11 @@ public class Timer : MonoBehaviour
         startBtn.SetActive(true);
     }
 
+    private void EnableStart()
+    {
+        startBtn.SetActive(true);
+    }
+
     private void ShowInvalidText()
     {
         InvalidTimeText.SetActive(true);
@@ -144,6 +149,7 @@ public class Timer : MonoBehaviour
         isPaused= false;
         pauseButton.interactable = false;
         stopButton.interactable = false;
+        EnableStart();
 
         if (alarmSound.isPlaying)
         {

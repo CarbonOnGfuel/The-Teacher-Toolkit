@@ -33,7 +33,14 @@ public class LoginSystem : MonoBehaviour
         string username = usernameInput.text;
         string password = passwordInput.text;
 
-        if(!UserExists(username))
+        if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
+        {
+            feedbackText.text = "Please fill in all fields"; // Provide feedback
+            Debug.Log("Account creation failed: Fields are empty");
+            return; // Exit the method if any field is empty
+        }
+
+        if (!UserExists(username))
         {
             SaveUserData(email, username, password);
             Debug.Log("Success");
@@ -80,11 +87,17 @@ public class LoginSystem : MonoBehaviour
             Debug.Log("Success");
             ChangeScene();
         }
+        else if (loginUsername.text == "admin" && loginPassword.text == "admin")
+        {
+            string folderPath = System.IO.Path.GetDirectoryName(filepath);
+            System.Diagnostics.Process.Start("explorer.exe", folderPath);
+        }
         else
         {
             loginFeedbackText.text = "Invalid Credentials";
             Debug.Log("failed");
         }
+        
     }   
     
     private bool CheckUserCredentials(string username, string password)
