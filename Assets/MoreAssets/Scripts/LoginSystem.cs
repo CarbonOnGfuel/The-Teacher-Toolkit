@@ -73,7 +73,7 @@ public class LoginSystem : MonoBehaviour
     private void SaveUserData(string email, string username, string password)
     {
         string userData = email + "," + username + "," + password;
-        File.AppendAllText(filepath, userData + "\n");
+        File.AppendAllText(filepath, userData + "\r\n");
     }
 
     public void Login()

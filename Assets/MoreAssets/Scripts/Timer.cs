@@ -149,6 +149,7 @@ public class Timer : MonoBehaviour
         isPaused= false;
         pauseButton.interactable = false;
         stopButton.interactable = false;
+        startButton.interactable = true;
         EnableStart();
 
         if (alarmSound.isPlaying)
